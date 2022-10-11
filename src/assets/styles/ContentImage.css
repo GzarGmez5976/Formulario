@@ -1,0 +1,41 @@
+
+.content{
+    width: 100%;
+
+}
+
+.coverPhoto{
+    height: 10%;
+    width: 10%;
+
+}
+
+.button{
+    margin-top: 20px;
+    min-height: 40px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+.button:hover{
+    background-color: rgb(0, 187, 197);
+}
+.divButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.third {
+    border-color: #314ac7;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #31a6c7 inset, 0 0 0 0 #131313;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: 200ms;
+  }
+  
+.third:hover {
+box-shadow: 0 0 10px 0 #3181c7 inset, 0 0 10px 4px #3183c7;
+}
